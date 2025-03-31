@@ -3,6 +3,10 @@
 ###############################################################################
 * text=auto
 
+# Ignorar scripts JavaScript do WebForms para a contagem de linguagens
+Scripts/WebForms/*.js linguist-vendored
+
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
